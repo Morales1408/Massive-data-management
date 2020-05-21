@@ -251,6 +251,32 @@ I will sort my users by their age
 
 ![](Fotos%20monfo/zzzzzzzz.jpg)
 
+# This is part 2.0, here you'll see the things that I learned during the course of Datacamp
+
+## _Disclaimer_:
+here you'll see only the commands that apply for Mongo, not the ones for pymongo. The idea od this cheatsheet is to learn about Mongo, not about Python. 
+
+## The "$distinct" funcion.
+What this funcion does is pretty intuitive just by reading its name, it can compare two arrays and return the values that make that array distinct. Let's say I compare A = [a,b] against B = [a,b,c]. By applying the "$distinct" funcion, it'll return the value "c" because that's the one that makes the difference between both arrays. 
+Here's an example on the dataset given by the course. 
+
+![](Fotos%20monfo/distinct.png) 
+
+## The "$exists" funcion.
+This function is like an filter. If you want to find for elements that matches a certain field, you will use this one stablishing that "$exists":True, in the other hand, you'll need to type "$exists": False if you are seeking for data without the specific field.
+Here's an example of it. 
+
+![](Fotos%20monfo/exists.png)
+
+## The regex library. 
+I consider this to be the most importat thing I learned during that course. This library is capable of searching through all the data you've previously stablished to see for those who have an match (but not a full match necessarily) with your request. This is, let's say I want to find all the elements that have the "Ma" letter combination in a "Name" field, this library will return all the names that have that characteristics. (i.e Mario, Maria, Mariachi, etc) 
+Here's an example of it: 
+
+![](Fotos%20monfo/regex.png)
+
+
+
+
 
 
 
