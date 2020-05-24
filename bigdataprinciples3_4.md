@@ -23,3 +23,9 @@ Thrift would try to deserialize that old data into the new field, which will lea
 + Check the extra properties at the very beggining of your batch-processing workflow. 
 
 # Chapter N.4
+
+### 1. -
+
+
+
+
