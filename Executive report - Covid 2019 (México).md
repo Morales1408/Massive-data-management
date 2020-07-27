@@ -19,5 +19,6 @@ Unfortunately, everything points to the fact that this Asian virus is here to st
 Meanwhile, Mexican society and the government had joined their resources in order to make the impact in public health more bearable, but following the previous idea, 
 the most logical questions raise... how is Mexico handling this situation? do we have any weak points we can improve? 
 
-The aim of this project is to take a step forward in order to solve those questions, 
+The aim of this project is to take a step forward in order to solve those questions by looking into the real data so we can have an accurate perception of the situation. 
+In order for us to do so, we have
 
