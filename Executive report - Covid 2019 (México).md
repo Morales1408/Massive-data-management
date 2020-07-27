@@ -20,6 +20,9 @@ Meanwhile, Mexican society and the government had joined their resources in orde
 
 The aim of this project is to take a step forward in order to solve those questions by looking into the real data so we can have an accurate perception of our national situation. In order for us to do so, we had done an Exploratory Data Analysis on the information provided by the Mexican goverment through their public database on COVID-19, which you can watch [in here](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico).
 
-It is worth to say that the analysis done for this project' purpose was done in the information retrieved from July 16 to July 27 of this year.
+It is worth to say that the analysis done for this project's purpose was done in the information retrieved from July 16 to July 27 of this year.
 
 ## Understanding the data <a name="understanding"></a>
+As we have written before, the analysis was done in the data retrieved from July 16 to July 27 of this year, during these days we recollected the information of 4,891,039 people, but what do we know about them and what can we obtain from it? This is what [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) gave us acces to:
+
+
