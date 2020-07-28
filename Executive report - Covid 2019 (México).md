@@ -32,9 +32,9 @@ As we have written before, the analysis was done in the data retrieved from July
 |id_registro|str|It tells the specific person's Id|
 |origen|int|It tells whether the person came from the USMER or not|
 |sector|int|It tells the person's medical institute procedence|
-|entidad_um|int|__CORREGIR___|
+|entidad_um|int|It tells the person's medical unity entity |
 |sexo|int|It tells the person's sex|
-|entidad_nac|int| __CORREGIR__|
+|entidad_nac|int|It tells the person's birht entity|
 |entidad_res|int|It tells the person's residence entity|
 |municipio_res|int|It tells the person's municipality of residence|
 |tipo_paciente|int|It tells whether the person is ambulatory, hospitalized, or unknown|
@@ -42,4 +42,36 @@ As we have written before, the analysis was done in the data retrieved from July
 |fecha_sintomas|str|It tells the date of the person's first symptoms|
 |fecha_def|str|It tells the person's date of death|
 |intubado|int|It tells the person's status related to being intubated|
-|neumonia|int|
+|neumonia|int|It tells the peron's status relateed to having pneumonia|
+|edad|int|It tells the person's age|
+|nacionalidad|int|It tells whether the person is mexican, foreigner or unknown|
+|embarazo|int|It tells the person's status on pregnancy|
+|habla_lengua_indig|int|It tells whether the person speaks a indigenous language or not, or if is unknown|
+|diabetes|int|It tell the person's status related to diabetes|
+|epoc|int|It tells the person's status related to epoc|
+|asma|int|It tells the person's status related to asthma|
+|inmuspurt|int|It tells the person's status related to immunosuppression|
+|hipertension|int|It tells the person's status related to hypertension|
+|otra_com|int|It tells the person's status related to having another complication|
+|cardiovascular|int|It tells the person's status related to having a cardiovascular issue|
+|obesidada|int|It tells the person's status related to being obese|
+|renal_cronica|int|It tells the person's status related to having a chronic kidney disease|
+|tabaquismo|int|It tells the person's status related to smoking|
+|resultado|int|It tells the person's status on his/her COVID test|
+|migrante|int|It tells the person's status related to being migrant|
+|pais_nacionalidad|str|It tells the person's nationality country|
+|pais_origen|str|It tells the person's country of birth|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
