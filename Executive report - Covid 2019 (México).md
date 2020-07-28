@@ -10,6 +10,7 @@
 1. [Introduction](#introduction)
 2. [Understanding the data](#understanding)
 3. [Exploratory Data Analysis](#eda)
+4. [Conclusion](#conclusion)
 
 
 ## Introduction <a name="introduction"></a>
@@ -113,4 +114,39 @@ This are our results
 
 That could be a really interesting topic to dig about, why the patients that are going to die got to live three more days if they live in Queretaro than if they were being treated in Morelos? is it related to the doctors? to the patients? to the resources? Regardless of the answer is something that must be a concern for all of us.  
 
+Now, focusing on the population, we wanted to find for factors or conditions that might be taken into consideration for the medical squad to target in a better or faster way that segment of the population that can potentially have the worst response to the virus by becoming patients.
 
+First of all, we wanted to see for the patients' previous conditions while being diagnosed with COVID.
+
+![](/covid/pete12.png)
+
+It is not a secret to tell that Mexico's population's health is not the best, but is something really worrying about the fact that not even half of the patients were free of, at least, one of those diseases. Is it because they are more vulnerable to get infected? Is it because of Mexico's population? Definitely is worth the shot to investigate. Now that we have seen that previous conditions are a common denominator in Mexican COVID patients, we wanted to determine the risk of having any of those health issues. 
+What we did was to divide our population into those ones that have, at least, one of those ailments in population segments; then, we divided each population segment and calculate the percentage of people that died because of that ailment. With that, we calculated the probability you have to die in case you have any of those previous conditions. 
+
+
+
+![](/covid/pete11.png)
+
+
+This is one of the most important insights we got from the dataset, it is extremely important to pay attention to previous conditions because there are cases like pneumonia or having a cronical kidney disease that increase your probability to die considerably, besides that, we have just seen that having these conditions are more common than we would like. 
+
+Finally, we have seen in other parts of the world that age is something to take into consideration while detecting a potential chronic patient, hence, we measured the age distribution in our country.
+
+![](/covid/pete8.png)
+
+As expected by being a natural variable, it proved to have a normal behaviour (this was mathematically proved with a Kolmogorov-Smirnov and a Shapiro-Wilks test; both of them with a p<0.05). We could easily say that our population has a huge range, but the mean lies on people that are considered to be middle aged.Now, does the age matter in Mexico to became a chronic patient? 
+
+In order to answer the previous question (and once we knew our variable was normally behaved), we noticed that being intubated is something that only apply for those patients that are extremely bad; hence, we tested (with a two-tailed t-student test) the distribution of the age of the people that are not intubated against the distribution of those ones that are. The results were to tell us if the age is statistically a factor that forced people to be intubated. 
+
+![](/covid/pete9.png)
+
+Our test yielded (with a p<0.05) that older people are indeed more susceptible to get intubated. This is, age is in fact an important factor to consider for patients.
+
+
+## Conclusion <a name="conclusion"></a>
+
+Unfortunately, there is still a lot to be said about the COVID-19 in Mexico and in the world, so the best we can do is to learn as much as we can about it to take care of our people. 
+
+That is what we tried to do with our project, we found some good insights about the characteristics of our populations such their previous healt condition and their age (which we learned is an important characteristic to consider), but most importantly, we raised some questions that we consider to be worth of a research, such the hospital conditions of the states where the people live longer. 
+
+We hope this project fulfilled its mission and contribuited a little bit to this topic to make it more bearable during this though times.
