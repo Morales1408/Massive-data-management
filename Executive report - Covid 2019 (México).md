@@ -80,7 +80,7 @@ As we can see, even though the amount of negative cases is bigger than the posit
 
 Another thing that was from our concern was to know the sectors that are more likely to provide the data from a positive case; here is the distribution we found.
 
-![](/covidd/pete1.png)
+![](/covidd/cambiar.png)
 
 The result we found was shocking for us. Considering our analyzed population to be more than __2,000,000__ infected people, it is quite interesting to find that we could basically name two sectors as responsibles for testing all positive cases. It is true the IMSS is the biggest hospital institute in Mexico; nonetheless, the SSA shows to be more important in this case. Meanwhile, the impact in positive cases testing for the remaining institutes is almost negligible compared to both of them. 
 
@@ -103,9 +103,9 @@ Once we saw that image, the decisions took by several governments of closing air
 
 As it was written in the beginning, the probability you have of being infected varies according to your geological position, this is why we decided to see the states where we can find a big concentration of the cases so we can have an objective idea of the most dangerous places in Mexico; in that way, we might consider to take a look into the distribution of material and resources. 
 
-![](/covidd/pete4_3.png)
+![](/covidd/cambiar2.png)
 
-As expected, the most populated states are the ones with a higher concentration of the national cases; nevertheless, it is important to point out that both Mexico city and the State of Mexico are relatively small compared to other states of the republic, so both cities should, according to the data, center of attention because of their territory and population. 
+As expected, the most populated states are the ones with a higher concentration of the national cases; nevertheless, it is important to point out that both Mexico city and the State of Mexico (México) are relatively small compared to other states of the republic, so both cities should, according to the data, center of attention because of their territory and population. 
 
 Now, with the previous graph, we can infer the places where the hospital's capacity might be to its limit; nonetheless, that does not necessarily mean that the hospital attention is bad for the patients. This got us intrigued and we wanted to find a type of measure within the dataset that might provide us with some answer. What we finally did was to take into consideration all that infected population that unfortunately died, then, we measure the time it took them to be in the hospital until their las day. 
 
