@@ -23,6 +23,23 @@ The aim of this project is to take a step forward in order to solve those questi
 It is worth to say that the analysis done for this project's purpose was done in the information retrieved from July 16 to July 27 of this year.
 
 ## Understanding the data <a name="understanding"></a>
-As we have written before, the analysis was done in the data retrieved from July 16 to July 27 of this year, during these days we recollected the information of 4,891,039 people, but what do we know about them and what can we obtain from it? This is what [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) gave us acces to:
+As we have written before, the analysis was done in the data retrieved from July 16 to July 27 of this year, during these days we recollected the information of __4,891,039 people__, but what do we know about them and what can we obtain from it? This is what [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) gave us acces to:
 
 
+|Variable name|Type|Description|
+|:------|:-----|:------|
+|fecha_actualizacion|str|It tells the last date when that entrie was updated|
+|id_registro|str|It tells the specific person's Id|
+|origen|int|It tells whether the person came from the USMER or not|
+|sector|int|It tells the person's medical institute procedence|
+|entidad_um|int|__CORREGIR___|
+|sexo|int|It tells the person's sex|
+|entidad_nac|int| __CORREGIR__|
+|entidad_res|int|It tells the person's residence entity|
+|municipio_res|int|It tells the person's municipality of residence|
+|tipo_paciente|int|It tells whether the person is ambulatory, hospitalized, or unknown|
+|fecha_ingreso|str|It tells the person's entry date|
+|fecha_sintomas|str|It tells the date of the person's first symptoms|
+|fecha_def|str|It tells the person's date of death|
+|intubado|int|It tells the person's status related to being intubated|
+|neumonia|int|
