@@ -9,6 +9,7 @@
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Understanding the data](#understanding)
+3. [Exploratory Data Analysis](#eda)
 
 
 ## Introduction <a name="introduction"></a>
@@ -62,10 +63,14 @@ As we have written before, the analysis was done in the data retrieved from July
 |pais_nacionalidad|str|It tells the person's nationality country|
 |pais_origen|str|It tells the person's country of birth|
 
+For further understanding, you can read the [official data dictionary](https://upy-my.sharepoint.com/:x:/g/personal/st1809116_upy_edu_mx/EcOTfYXfGUlLoRqsyoLhpjkBRurV2mrMzQUH9W4sTiqThg?e=QbUeJH) in here. 
 
+## Exploratory data analysis <a name="eda"></a>
 
+To begin with, we wanted to determine the amount of people that are indeed SARS-CoV-2 positive so we can have an idea on the impact of the virus in our four million patients. 
 
-
+Here's the result. 
+![](/codiv/pete.png)
 
 
 
