@@ -70,13 +70,47 @@ For further understanding, you can read the [official data dictionary](https://u
 To begin with, we wanted to determine the amount of people that are indeed SARS-CoV-2 positive so we can have an idea on the impact of the virus in our four million patients. 
 
 Here's the result. 
-![](/codiv/pete.png)
+
+![](/covid/pete.png)
+
+As we can see, even though the amount of negative cases is bigger than the positive ones, it is quite a preoccupation that the amount of people with the virus cases is getting close to fifty percent of our entire registered population.
 
 
 
+Another thing that was from our concern was to know the sectors that are more likely to provide the data from a positive case; here is the distribution we found.
+
+![](/covid/pete1.png)
+
+The result we found was shocking for us, considering our analized population to be more than __2,000,000__ infected people, it is quite interesting to find most of the positive cases in a single sector. That is definetily something worth to research. 
 
 
+Another thing of our interest was to find the proportion there is between infected women and men, is it fair to say that are man more likely to be positive? is it the other way around? 
+
+Here is what we found
+
+![](/covid/pete2_2.png)
+
+Even though we are talking about thousands of people of difference, the gap between sex is not big enough to be really the center of attention for a specific analysis. Unfortunately for us, everyone seems to be equally susceptible to get the virus. 
 
 
+Continuing with the Analysis, we found that there are a lot of different nationalities in the database, so it might be important to know the top ten nationalities with more patients that are being treated in Mexico. This measurement could get us some insight into the impact of tourism in our country and how that could potentially increase the risk in other nations.
+
+![](/covid/pete3.png)
+
+
+Once we saw that image, the decisions took by several governments of closing airports makes total sense. It is very dangerous for both countries to have infected people coming home or going somewhere else as tourists. 
+
+As it was written in the beginning, the probability you have of being infected varies according to your geological position, this is why we decided to see the states where we can find a big concentration of the cases so we can have an objective idea of the most dangerous places in Mexico; in that way, we might consider to take a look into the distribution of material and resources. 
+
+![](/covid/pete4_3.png)
+
+As expected, the most populated states are the ones with a higher concentration of the national cases; nevertheless, it is important to point out that both Mexico city and the State of Mexico are relatively small compared to other states of the republic, so both cities should, according to the data, center of attention because of their territory and population. 
+
+Now, with the previous graph, we can infer the places where the hospital's capacity might be to its limit; nonetheless, that does not necessarily mean that the hospital attention is bad for the patients. This got us intrigued and we wanted to find a type of measure within the dataset that might provide us with some answer. What we finally did was to take into consideration all that infected population that unfortunately died, then, we measure the time it took them to be in the hospital until their las day. 
+
+This are our results
+![](/covid/pete10.png)
+
+That could be a really interesting topic to dig about, why the patients that are going to die got to live three more days if they live in Queretaro than if they were being treated in Morelos? is it related to the doctors? to the patients? to the resources? Regardless of the answer is something that must be a concern for all of us.  
 
 
