@@ -41,9 +41,15 @@ Our approach will be focused on our country: Mexico. With the purpose of finding
 
 The main justification of the election of such topic, is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we tought.
 
-Our proposal is guided by our knowldedge and a value added by making a prediction with Machine Learning.
+Our proposal is guided by our knowledge and a value added by making a prediction with Machine Learning.
 
-The first thing to do was to search for the information needed. Surfing the web, we found many data sources, that collect the most common information: number of cases registered, number of deaths, and country. Even though the plenty of web pages that describe the topic and provide data related, the first thing we struggle with was to found a full database that gives valuable information. Many of them were out-to-date and barely accessible according to our limited resources.
+The first thing to do was to search for the information needed. Surfing the web, we found many data sources, that collect the most common information: number of cases registered, number of deaths, and country. Even though the plenty of web pages that describe the topic and provide data related, the first thing we struggle with was to found a full database that gives valuable information. Many of them were out-to-date and barely accessible according to our limited resources. The latter was the case of the API of the Mexican Government.
+
+The initial idea, therefore, of getting the data from a public repository was denied by the circumstances.
+
+Nonetheless, our research continued and we found the data source we used for the project taken from [CDMX data](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) which also stores national information, which fulfiled our needs.
+
+
 
 ## Introduction <a name="introduction"></a>
 The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
