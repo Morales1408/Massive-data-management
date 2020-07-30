@@ -82,7 +82,7 @@ Another thing that was from our concern was to know the sectors that are more li
 
 ![](/covidd/cambiar.png)
 
-The result we found was shocking for us. Considering our analyzed population to be more than __2,000,000__ infected people, it is quite interesting to find that we could basically name two sectors as responsibles for testing all positive cases. It is true the IMSS is the biggest hospital institute in Mexico; nonetheless, the SSA shows to be more important in this case. Meanwhile, the impact in positive cases testing for the remaining institutes is almost negligible compared to both of them. 
+The result we found was shocking for us. Considering our analyzed population to be __2,345,844__ infected people, it is quite interesting to find that we could basically name two sectors as responsibles for testing all positive cases. It is true the IMSS is the biggest hospital institute in Mexico; nonetheless, the SSA shows to be more important in this case. Meanwhile, the impact in positive cases testing for the remaining institutes is almost negligible compared to both of them. 
 
 
 Another thing of our interest was to find the proportion there is between infected women and men, is it fair to say that are man more likely to be positive? is it the other way around? 
