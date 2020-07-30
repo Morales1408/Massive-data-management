@@ -7,11 +7,43 @@
 
 
 ## Table of contents
-1. [Introduction](#introduction)
-2. [Understanding the data](#understanding)
-3. [Exploratory Data Analysis](#eda)
-4. [Conclusion](#conclusion)
+1. [Pipeline](#pipeline)
+2. [Introduction](#introduction)
+3. [Understanding the data](#understanding)
+4. [Exploratory Data Analysis](#eda)
+5. [Conclusion](#conclusion)
 
+## Pipeline
+As a closure for the Big Data Management course, we are to develop a project involving topics that the management of data requires, where we, as a team, could get something valuable.
+
+Thus, for the development of a pipeline, we are to follow some specific requirements:
+* **Problem:** To choose a current problematica on the IT industry, or not related at all.
+* **Solutions:** Those that have been already applied to solve the problem.
+* **Data source:** Either internal and external.
+* **Posible algorithms**
+* **Data cleaning and manipulations:** Icluiding...
+    * Variables
+    * Data
+    * Algorithm
+    * Target Variables
+    * Calculations and Formulas
+    * Decision making
+    * Concrete actions
+    * Dasboards
+
+The project must consider:
+* **Scalability** justifying the election of the tools and technologies used for the proyect.
+* **Replicability** offering the posibillity to provide the same analysis specifying the own requirements of data.
+
+The team decides to choose a current topic that the entire world faces and deals with, including the health sector, the industrial sector, even the agricultural sector or even the academic sector. COVID-19 has shown its presence on anyone's lifes.
+
+Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us wich might lead us to a deeper analysis.
+
+The main justification of the election of such topic, is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we tought.
+
+Our proposal is guided by our knowldedge and a value added by making a prediction with Machine Learning.
+
+The first thing to do was to search for the information needed. Surfing the web, we found many data sources, that collect the most common information: number of cases registered, number of deaths, and country. Even though the plenty of web pages that describe the topic and provide data related, the first thing we struggle with was to found a full database that gives valuable information. Many of them were out-to-date and barely accessible according to our limited resources.
 
 ## Introduction <a name="introduction"></a>
 The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
@@ -82,7 +114,7 @@ Another thing that was from our concern was to know the sectors that are more li
 
 ![](/covidd/cambiar.png)
 
-The result we found was shocking for us. Considering our analyzed population to be __2,345,844__ infected people, it is quite interesting to find that we could basically name two sectors as responsibles for testing all positive cases. It is true the IMSS is the biggest hospital institute in Mexico; nonetheless, the SSA shows to be more important in this case. Meanwhile, the impact in positive cases testing for the remaining institutes is almost negligible compared to both of them. 
+The result we found was shocking for us. Considering our analyzed population to be more than __2,000,000__ infected people, it is quite interesting to find that we could basically name two sectors as responsibles for testing all positive cases. It is true the IMSS is the biggest hospital institute in Mexico; nonetheless, the SSA shows to be more important in this case. Meanwhile, the impact in positive cases testing for the remaining institutes is almost negligible compared to both of them. 
 
 
 Another thing of our interest was to find the proportion there is between infected women and men, is it fair to say that are man more likely to be positive? is it the other way around? 
