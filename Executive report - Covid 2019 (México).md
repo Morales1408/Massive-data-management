@@ -35,7 +35,7 @@ The project must consider:
 * **Scalability** justifying the election of the tools and technologies used for the proyect.
 * **Replicability** offering the posibillity to provide the same analysis specifying the own requirements of data.
 
-The team decides to choose a current topic that the entire world faces and deals with, including the health sector, the industrial sector, even the agricultural sector or even the academic sector. COVID-19 has shown its presence on anyone's lifes.
+The team decided to choose a current topic that the entire world faces and deals with, including the health sector, the industrial sector, even the agricultural sector or even the academic sector. COVID-19 has shown its presence on anyone's lifes.
 
 Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us wich might lead us to a deeper analysis.
 
@@ -48,6 +48,9 @@ The first thing to do was to search for the information needed. Surfing the web,
 The initial idea, therefore, of getting the data from a public repository was denied by the circumstances.
 
 Nonetheless, our research continued and we found the data source we used for the project taken from [CDMX data](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) which also stores national information, which fulfiled our needs.
+
+Once we accessed to the data, we started with a script in Bash from Linux, to later connect it with Apache Airflow in order to update the information every 24 hours.
+Whit this, though, the more we advanced with the script on Bash, the more difficult was Airflow due to some problems when using the operators needed and the way we should have used the parameters. That is why we decidesd to keep our csv files obtained directly from the script of Bash.
 
 
 
