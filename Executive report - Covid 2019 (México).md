@@ -36,7 +36,6 @@ The project must consider:
 * **Scalability** justifying the election of the tools and technologies used for the proyect.
 * **Replicability** offering the posibillity to provide the same analysis specifying the own requirements of data.
 
-## Pipeline <a name="pipeline"></a>
 The team decided to choose a current topic that the entire world faces and deals with, including the health sector, the industrial sector, even the agricultural sector or even the academic sector. COVID-19 has shown its presence on anyone's lifes.
 
 Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us which might lead us to a deeper analysis.
@@ -45,6 +44,7 @@ The main justification of the election of such topic, is that the data can be fo
 
 Our proposal is guided by our knowledge and a value added by making a prediction with Machine Learning.
 
+## Pipeline <a name="pipeline"></a>
 The first thing to do was to search for the information needed. Surfing the web, we found many data sources, that collect the most common information: number of cases registered, number of deaths, and country. Even though the plenty of web pages that describe the topic and provide data related, the first thing we struggle with was to found a full database that gives valuable information. Many of them were out-to-date and barely accessible according to our limited resources. The latter was the case of the API of the Mexican Government.
 
 The initial idea, therefore, of getting the data from a public repository was denied by the circumstances.
@@ -55,12 +55,15 @@ From this point, here is what we originaly planed for the pipeline:
 * **Data Source**
    * Database taken from [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) due to its completeness and easy access
 * **Data acquisition**
-   * **Bash in Apache Airflow:** To schedule and monitor in a workflow the acquisition of the data every 24 hours.
+   * **Bash in Apache Airflow:**
+   To schedule and monitor in a workflow the acquisition of the data every 24 hours.
 * **Data storage**
    * **MongoDB Atlas:**
 * **Data analysis and visualization**
-   * **Jupyter Notebook:** It is an IDE provided by Anaconda which provides powerful and well known options to visualize data such as the Matplotlib library, as well as Numpy, Seaborn, and Pandas to create the DataFrames in the analysis.
-   * **Tableau:** On the other hand, this softwareis well known for the easy data visualization by simplifying raw data in a very easy to understand format.
+   * **Jupyter Notebook:**
+   It is an IDE provided by Anaconda which provides powerful and well known options to visualize data such as the Matplotlib library, as well as Numpy, Seaborn, and Pandas to create the DataFrames in the analysis.
+   * **Tableau:**
+   On the other hand, this softwareis well known for the easy data visualization by simplifying raw data in a very easy to understand format.
 
 Once we accessed to the data, we started with a script in Bash from Linux, to later connect it with Apache Airflow in order to update the information every 24 hours.
 Whit this, though, the more we advanced with the script on Bash, the more difficult was Airflow due to some problems when using the operators needed and the way we should have used the parameters. That is why we decided to keep our csv files obtained directly from the script of Bash, instead pf using the Airflow technology. From here, it is important to mention that the information taken was from July 16 to July 27 of this year, the time we declared on the script to store the data, and with the main purpose of having enough data to use it on the prediction.
