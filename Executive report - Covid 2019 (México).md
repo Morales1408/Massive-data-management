@@ -13,7 +13,8 @@
 4. [Understanding the data](#understanding)
 5. [Exploratory Data Analysis](#eda)
 6. [Algorithm implemented](#algorithm)
-7. [Conclusion](#conclusion)
+7. [The V's in Big Data applied in the project](#bigdata)
+8. [Conclusion](#conclusion)
 
 
 
@@ -33,7 +34,7 @@ As a closure for the Big Data Management course, we are to develop a project inv
 
 ## Initial ideas, limitations the team had and changes that were made <a name="initial"></a>
 
-The team decided to choose a current topic that the entire world faces and deals with, including the health, industrial sector, agricultural sector, academic, among other sectors. COVID-19 has shown its presence on anyone's life.
+The team decided to choose a current topic that the entire world faces and deals with, including the health, industrial sector, agricultural sector, educational, among other sectors. COVID-19 has shown its presence on anyone's life.
 
 Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us which might lead us to a deeper analysis. The main justification of the election of such topic is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we thought. Our proposal is guided by our knowledge and a value added by making a prediction with Machine Learning.
 
@@ -194,6 +195,12 @@ The table below shows the final data frame that will be used.
 |  renal_cronica | boolean | Identifies if the patient has been diagnosed with chronic kidney failure. 1: yes, 0: no | created                 |
 |   tabaquismo   | boolean | Identifies if the patient has a smoking habit. 1: yes, 0: no                            | created                 |
 
+## The V's in Big Data applied in the project <a name="bigdata"></a>
+Indeed, this was an approach of working with Big Data since the registers grown 700,000 records daily more or less. And as we know, the caracteristics of Big Daa lies on the 5 V's that describes the term. Which ones applied for the reported project?
+
+* **Velocity:** Thanks to the use of Batch in Linux, we had the opportunity to use real-time data in an agile way by giving an acurate response of the process and analysis of the datataken from [Datos Abiertos de México](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico)
+* **Value:** This characteristic was seen on the EDA by using correlations and statistics that proves the value of the information obtained from the data source.
+* **Veracity:** Part of this was thanks to the data source that provides real and reliable data. Plus, cleaning the data ensures that the information was well used, for instace, when receiving the 700,000 records per day, most of those records were repetitive and we needed to remove those unnecessary records.
 
 
 ## Conclusion <a name="conclusion"></a>
