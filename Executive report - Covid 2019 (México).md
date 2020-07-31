@@ -49,15 +49,14 @@ Whit this, though, the more we advanced with the script on Bash, the more diffic
 
 Now, we had our data acquisition ready, but we needed also to store it for us to use it for its analysis. Therefore, our initial idea was to create and store the database in a cluster from MongoDB, speciffically in MongoDB Atlas, because we needed a communitary service to thet three of us to easily access to the documents. We had ready the cluster. However, when trying to upload our file, we faced the problem of the limitation of storage on a shared cluster in MongoDB Atlas. Thus, we decided to keep it in the limited space, since there was still enough data to be able to work with. And mainly, because we had the original plan of using Tableau for the data visualization part of our project, and MongoDB offers this connection.
 
-However, more difficulties began to be present while getting advances in the project. Since we wanted to switching from MongoDB Atlas to Tableau the platform required an upgrade in the cluster that would allow us to complete said connection. And the cost was of $0.08 per hour of usage. Therefore we look for an alternative and found that Tableau gives the opportunity to be connected with OneDrive, and since we store our files for protection in that platform provided by our University, we decided to work in such way.
+However, more difficulties began to be present while getting advances in the project. Since we wanted to connect MongoDB Atlas to Tableau, the platform required an upgrade in the cluster that would allow us to complete said connection. And the cost was of $0.08 per hour of usage. Therefore we look for an alternative and found that Tableau gives the opportunity to be connected with OneDrive, and since we store our files for protection in that platform provided by our University, we decided to work in such way.
 
 Finally, the data analysis was complemented with Jupyter Notebook due to its practicality and our experience with this tool. Therefore, our pipeline for this project is as shown below:
 
 ![](/covidd/pipeline(2).jpg)
 
 ## Introduction <a name="introduction"></a>
-The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
-has been causing; nonetheless, the impact of COVID-19 varies in function to the geographical position in which it takes place. 
+The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event has been causing; nonetheless, the impact of COVID-19 varies in function to the geographical position in which it takes place. 
 
 Unfortunately, everything points to the fact that this virus is here to stay, and remedies such as a vaccine or a very efficient treatment do not seem like a realistic solution in a short time period.
 Meanwhile, Mexican society and the government had joined their resources in order to make the impact in public health more bearable for a greater good, but following the previous idea, the most logical questions raise... Does the data say Mexico is handling the situation properly? do we have any weak points we can improve? what else can we do?
@@ -67,7 +66,7 @@ The aim of this project is to take a step forward in order to solve those questi
 It is worth to say that the analysis done for this project's purpose was done in the information retrieved from July 16 to July 27 of this year.
 
 ## Understanding the data <a name="understanding"></a>
-As we have written before, the analysis was done in the data retrieved from July 16 to July 27 of this year, during these days we recollected the information of __4,891,039 people__, but what do we know about them and what can we obtain from it? This is what [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) gave us acces to:
+As we have written before, the analysis was done in the data retrieved from July 16 to July 27 of this year. But, what do we know about them and what can we obtain from it? This is what [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) gave us acces to:
 
 
 |Variable name|Type|Description|
