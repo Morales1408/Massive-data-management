@@ -190,7 +190,7 @@ In order to answer the previous question (and once we knew our variable was norm
 
 Our test yielded (with a p<0.05) that older people are indeed more susceptible to get intubated. This is, age is in fact an important factor to consider for patients.
 
-## Algorithm implemented <a name="Algorithm implemented"></a>
+## Algorithm implemented <a name="algorithm"></a>
 
 Logistic Regression is a supervised learning algorithm used for classification problems. Classification can be defined as the task of predicting a discrete class label. In a classification problem, data is classified into one of two or more classes. A classification problem with two classes is called *binary*. More than two classes is called a *mul-ticlass* classification. Logistic regression it’s a regression method that allows estimating the probability of a categorical variable based on a numerical variable. One of the main applications of logistic regression is that of binary classification, in which observations are classified into one group or another depending on the value of the variable used as a predictor.
 
