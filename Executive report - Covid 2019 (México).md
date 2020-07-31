@@ -9,10 +9,11 @@
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Pipeline](#pipeline)
-3. [Understanding the data](#understanding)
-4. [Exploratory Data Analysis](#eda)
-5. [Algorithm implemented](#algorithm)
-6. [Conclusion](#conclusion)
+3. [Initial ideas and changes that were made](#initial)
+4. [Understanding the data](#understanding)
+5. [Exploratory Data Analysis](#eda)
+6. [Algorithm implemented](#algorithm)
+7. [Conclusion](#conclusion)
 
 
 
@@ -51,6 +52,8 @@ The team decided to choose a current topic that the entire world faces and deals
 Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us which might lead us to a deeper analysis. The main justification of the election of such topic is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we thought. Our proposal is guided by our knowledge and a value added by making a prediction with Machine Learning.
 
 The first thing it was done was to to search for the information needed. Surfing the web, we found many data sources that collect the most common information: number of cases registered, number of deaths per country, etc. Even though plenty of web pages describe the topic and provide data related, the first thing we struggle with was to found a full database that gives valuable information. Many of them were out-to-date and barely accessible according to our limited resources. The latter was the case of the API of the Mexican Government.
+
+## Initial ideas and changes that were made <a name="initial"></a>
 
 The initial idea of getting the data from a public repository was denied by the circumstances. Nonetheless, our research continued and we found the data source we used for the project in the [Datos Abiertos de México](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) repository, which stores national information.
 
