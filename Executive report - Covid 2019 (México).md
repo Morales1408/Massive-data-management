@@ -159,13 +159,13 @@ This is one of the most important insights we got from the dataset, it is extrem
 
 Finally, we have seen in other parts of the world that age is something to take into consideration while detecting a potential chronic patient, hence, we measured the age distribution in our country.
 
-![](/nuevas/pete8.png)
+![](/nuevas/pete8n.png)
 
 As expected by being a natural variable, it proved to have a normal behaviour (this was mathematically proved with a Kolmogorov-Smirnov and a Shapiro-Wilks test; both of them with a p<0.05). We could easily say that our population has a huge range, but the mean lies on people that are considered to be middle aged.Now, does the age matter in Mexico to became a chronic patient? 
 
 In order to answer the previous question (and once we knew our variable was normally behaved), we noticed that being intubated is something that only apply for those patients that are extremely bad; hence, we tested (with a two-tailed t-student test) the distribution of the age of the people that are not intubated against the distribution of those ones that are. The results were to tell us if the age is statistically a factor that forced people to be intubated. 
 
-![](/nuevas/pete9.png)
+![](/nuevas/pete9n.png)
 
 Our test yielded (with a p<0.05) that older people are indeed more susceptible to get intubated. This is, age is in fact an important factor to consider for patients.
 
