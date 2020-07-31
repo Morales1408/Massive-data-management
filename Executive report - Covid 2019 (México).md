@@ -11,7 +11,7 @@
 2. [Introduction](#introduction)
 3. [Understanding the data](#understanding)
 4. [Exploratory Data Analysis](#eda)
-5. [Algorithm implemented](#algorithm implemented)
+5. [Algorithm implemented](#algorithm)
 6. [Conclusion](#conclusion)
 
 ## Pipeline <a name="pipeline"></a>
