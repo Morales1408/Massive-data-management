@@ -129,7 +129,7 @@ Once we saw that image, the decisions took by several governments of closing air
 
 As it was written in the beginning, the probability you have of being infected varies according to your geological position, this is why we decided to see the states where we can find a big concentration of the cases so we can have an objective idea of the most dangerous places in Mexico; in that way, we might consider to take a look into the distribution of material and resources. 
 
-![](/nuevas/cambiar2.png)
+![](/nuevas/pete4_3.png)
 
 As expected, the most populated states are the ones with a higher concentration of the national cases; nevertheless, it is important to point out that both Mexico city and the State of Mexico (México) are relatively small compared to other states of the republic, so both cities should, according to the data, center of attention because of their territory and population. 
 
