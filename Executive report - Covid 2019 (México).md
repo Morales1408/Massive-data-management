@@ -10,19 +10,19 @@
 1. [Introduction](#introduction)
 2. [Pipeline](#pipeline)
 3. [Problem to work with](#problem)
-3. [Understanding the data](#understanding)
-4. [Exploratory Data Analysis](#eda)
-5. [Conclusion](#conclusion)
+4. [Understanding the data](#understanding)
+5. [Exploratory Data Analysis](#eda)
+6. [Conclusion](#conclusion)
 
 ## Introduction <a name="introduction"></a>
 As a closure for the Big Data Management course, we are to develop a project involving topics that the management of data requires, where we, as a team, could get something valuable.
 
 Thus, for the development of a pipeline, we are to follow some specific requirements:
-* **Problem:** To choose a current problematica on the IT industry, or not related at all.
+* **Problem:** To choose a current problem on the IT industry, or not related at all.
 * **Solutions:** Those that have been already applied to solve the problem.
 * **Data source:** Either internal and external.
 * **Posible algorithms**
-* **Data cleaning and manipulations:** Icluiding...
+* **Data cleaning and manipulations:** Icluding...
     * Variables
     * Data
     * Algorithm
@@ -55,7 +55,7 @@ From this point, here is what we originaly planed for the pipeline:
 * **Data Source**
    * Database taken from [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) due to its completeness and easy access
 * **Data acquisition**
-   * **Bash in Apache Airflow:** To schedule and monitor in a workflow the acquisition of the data every 24 hpurs.
+   * **Bash in Apache Airflow:** To schedule and monitor in a workflow the acquisition of the data every 24 hours.
 * **Data storage**
    * **MongoDB Atlas:**
 * **Data analysis and visualization**
@@ -73,7 +73,7 @@ Finally, the data analysis was complemented with Jupyter Notebook due to its pra
 
 ![](/covidd/pipeline(2).jpg)
 
-Althought the difficulties and limitations we faced with our original pipeline, it is totally replicable in such way thanks to the advantages they provide. Most of the complications where because of money: (MongoDB Atlas on storage, and its conection with Tableu, which also need a subscription (for the project we used the free trial for 15 days). Thus, with a established budget, when working for any organization or company that would need or feel interested on this approach to a solution.
+Althought the difficulties and limitations we faced with our original pipeline, it is totally replicable in such way thanks to the advantages they provide. Most of the complications where because of money: (MongoDB Atlas on storage, and its conection with Tableau, which also need a subscription (for the project we used the free trial for 15 days). Thus, with a established budget, when working for any organization or company that would need or feel interested on this approach to a solution.
 
 ## Problem to work with <a name="problem"></a>
 The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
