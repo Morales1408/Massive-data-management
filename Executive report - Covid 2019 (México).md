@@ -122,7 +122,7 @@ Even though we are talking about thousands of people of difference, the gap betw
 
 Continuing with the Analysis, we found that there are a lot of different nationalities in the database, so it might be important to know the top ten nationalities with more patients that are being treated in Mexico. This measurement could get us some insight into the impact of tourism in our country and how that could potentially increase the risk in other nations.
 
-![](/nuevas/pete3.png)
+![](/nuevas/pete3n.png)
 
 
 Once we saw that image, the decisions took by several governments of closing airports makes total sense. It is very dangerous for both countries to have infected people coming home or going somewhere else as tourists. 
