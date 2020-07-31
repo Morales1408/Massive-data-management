@@ -106,7 +106,7 @@ As we can see, even though the amount of negative cases is bigger than the posit
 
 Another thing that was from our concern was to know the sectors that are more likely to provide the data from a positive case; here is the distribution we found.
 
-![](/nuevas/cambiar.png)
+![](/nuevas/pete4.png)
 
 The result we found was shocking for us. Considering our analyzed population to be more than __2,000,000__ infected people, it is quite interesting to find that we could basically name two sectors as responsibles for testing all positive cases. It is true the IMSS is the biggest hospital institute in Mexico; nonetheless, the SSA shows to be more important in this case. Meanwhile, the impact in positive cases testing for the remaining institutes is almost negligible compared to both of them. 
 
