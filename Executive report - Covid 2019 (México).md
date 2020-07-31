@@ -198,7 +198,7 @@ The table below shows the final data frame that will be used.
 ## The V's in Big Data applied in the project <a name="bigdata"></a>
 Indeed, this was an approach of working with Big Data since the registers grown 700,000 records daily more or less. And as we know, the caracteristics of Big Daa lies on the 5 V's that describes the term. Which ones applied for the reported project?
 
-* **Velocity:** Thanks to the use of Batch in Linux, we had the opportunity to use real-time data in an agile way by giving an acurate response of the process and analysis of the datataken from [Datos Abiertos de México](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico)
+* **Velocity:** Thanks to the use of bash in Linux, we had the opportunity to use real-time data in an agile way by giving an acurate response of the process and analysis of the datataken from [Datos Abiertos de México](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico)
 * **Value:** This characteristic was seen on the EDA by using correlations and statistics that proves the value of the information obtained from the data source.
 * **Veracity:** Part of this was thanks to the data source that provides real and reliable data. Plus, cleaning the data ensures that the information was well used, for instace, when receiving the 700,000 records per day, most of those records were repetitive and we needed to remove those unnecessary records.
 
