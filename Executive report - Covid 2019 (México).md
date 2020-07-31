@@ -26,34 +26,18 @@ The aim of this project is to take a step forward in order to solve those questi
 
 
 ## Pipeline <a name="pipeline"></a>
-As a closure for the Big Data Management course, we are to develop a project involving topics that the management of data requires, where we, as a team, could get something valuable.
+As a closure for the Big Data Management course, we are to develop a project involving topics that the management of data requires where we, as a team, could get something valuable.
 
-Thus, for the development of a pipeline, we are to follow some specific requirements:
-* **Problem:** To choose a current problematica on the IT industry, or not related at all.
-* **Solutions:** Those that have been already applied to solve the problem.
-* **Data source:** Either internal and external.
-* **Posible algorithms**
-* **Data cleaning and manipulations:** Icluiding...
-    * Variables
-    * Data
-    * Algorithm
-    * Target Variables
-    * Calculations and Formulas
-    * Decision making
-    * Concrete actions
-    * Dasboards
+![](/covidd/pipeline(2).jpg)
 
-The project must consider:
-* **Scalability** justifying the election of the tools and technologies used for the proyect.
-* **Replicability** offering the posibillity to provide the same analysis specifying the own requirements of data.
+
+## Initial ideas and changes that were made <a name="initial"></a>
 
 The team decided to choose a current topic that the entire world faces and deals with, including the health, industrial sector, agricultural sector, academic, among other sectors. COVID-19 has shown its presence on anyone's life.
 
 Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us which might lead us to a deeper analysis. The main justification of the election of such topic is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we thought. Our proposal is guided by our knowledge and a value added by making a prediction with Machine Learning.
 
 The first thing it was done was to to search for the information needed. Surfing the web, we found many data sources that collect the most common information: number of cases registered, number of deaths per country, etc. Even though plenty of web pages describe the topic and provide data related, the first thing we struggle with was to found a full database that gives valuable information. Many of them were out-to-date and barely accessible according to our limited resources. The latter was the case of the API of the Mexican Government.
-
-## Initial ideas and changes that were made <a name="initial"></a>
 
 The initial idea of getting the data from a public repository was denied by the circumstances. Nonetheless, our research continued and we found the data source we used for the project in the [Datos Abiertos de México](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) repository, which stores national information.
 
@@ -63,8 +47,6 @@ Once we accessed to the data, we started with a script in Bash to later connect 
 Once we had our data acquisition ready, we needed also to store it for us to use it for its analysis. Therefore, our initial idea was to create and store the database in a cluster from MongoDB, speciffically in MongoDB Atlas,  because this technology fulfills the characteristics of a fast transactions and perform simulteneously in different nodes for the best performance. We had ready the cluster. However, when trying to upload our file, we faced the problem of the limitation of storage on a shared cluster in MongoDB Atlas. Thus, we decided to keep it in the limited space since there was still enough data to be able to work with. And mainly, because we had the original plan of using Tableau for the data visualization part of our project, and MongoDB offers this connection. Nevertheless, more difficulties began to be present while getting advances in the project. Since we wanted to connect MongoDB Atlas to Tableau, the platform required an upgrade in the cluster that would allow us to complete said connection. The cost was of $0.08 per hour of usage. Therefore we look for an alternative and found that Tableau gives the opportunity to be connected with OneDrive, and since we store our files for protection in that platform provided by our University, we decided to work in such way.
 
 Finally, the data analysis and visualization was complemented with Jupyter Notebook due to its practicality and our experience with this tool, but it was also used tableau UI due to it is a tool both easy to learn and to use. Furthermore, tableau offers free access to tableau desktop for a year to students and since it is a tool widely used by companies, we decided to use it.
-
-![](/covidd/pipeline(2).jpg)
 
 ## Understanding the data <a name="understanding"></a>
 As we have written before, the analysis was done in the data retrieved from July 16 to July 27 of this year. But, what do we know about them and what can we obtain from it? This is what [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) gave us acces to:
