@@ -145,7 +145,7 @@ Now, focusing on the population, we wanted to find for factors or conditions tha
 
 First of all, we wanted to see for the patients' previous conditions while being diagnosed with COVID.
 
-![](/nuevas/pete12n.png)
+![](/nuevas/Pete12n.png)
 
 It is not a secret to tell that Mexico's population's health is not the best, but is something really worrying about the fact that not even half of the patients were free of, at least, one of those diseases. Is it because they are more vulnerable to get infected? Is it because of Mexico's population? Definitely is worth the shot to investigate. Now that we have seen that previous conditions are a common denominator in Mexican COVID patients, we wanted to determine the risk of having any of those health issues. 
 What we did was to divide our population into those ones that have, at least, one of those ailments in population segments; then, we divided each population segment and calculate the percentage of people that died because of that ailment. With that, we calculated the probability you have to die in case you have any of those previous conditions. 
