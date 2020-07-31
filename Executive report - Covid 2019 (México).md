@@ -48,7 +48,7 @@ The project must consider:
 
 The team decided to choose a current topic that the entire world faces and deals with, including the health, industrial sector, agricultural sector, academic, among other sectors. COVID-19 has shown its presence on anyone's life.
 
-Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us wich might lead us to a deeper analysis. The main justification of the election of such topic is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we thought. Our proposal is guided by our knowledge and a value added by making a prediction with Machine Learning.
+Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us which might lead us to a deeper analysis. The main justification of the election of such topic is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we thought. Our proposal is guided by our knowledge and a value added by making a prediction with Machine Learning.
 
 The first thing it was done was to to search for the information needed. Surfing the web, we found many data sources that collect the most common information: number of cases registered, number of deaths per country, etc. Even though plenty of web pages describe the topic and provide data related, the first thing we struggle with was to found a full database that gives valuable information. Many of them were out-to-date and barely accessible according to our limited resources. The latter was the case of the API of the Mexican Government.
 
