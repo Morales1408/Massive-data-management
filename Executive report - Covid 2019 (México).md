@@ -54,9 +54,11 @@ Whit this, though, the more we advanced with the script on Bash, the more diffic
 
 Now, we had our data acquisition ready, but we needed also to store it for us to use it for its analysis. Therefore, our initial idea was to create and store the database in a cluster from MongoDB, speciffically in MongoDB Atlas, because we needed a communitary service to thet three of us to easily access to the documents. We had ready the cluster. However, when trying to upload our file, we faced the problem of the limitation of storage on a shared cluster in MongoDB Atlas. Thus, we decided to keep it in the limited space, since there was still enough data to be able to work with. And mainly, because we had the original plan of using Tableau for the data visualization part of our project, and MongoDB offers this connection.
 
-However, more difficulties began to be present while getting advances in the project. Since we wanted to switching from MongoDB Atlas to Tableau the platform required an upgrade in the cluster that would allow us to complete said connection. And the cost was of $0.08 per hour of usage. Therefore we look for an alternative
+However, more difficulties began to be present while getting advances in the project. Since we wanted to switching from MongoDB Atlas to Tableau the platform required an upgrade in the cluster that would allow us to complete said connection. And the cost was of $0.08 per hour of usage. Therefore we look for an alternative and found that Tableau gives the opportunity to be connected with OneDrive, and since we store our files for protection in that platform provided by our University, we decided to work in such way.
 
+Finally, the data analysis was complemented with Jupyter Notebook due to its practicality and our experience with this tool. Therefore, our pipeline for this project is as shown below:
 
+![](/covidd/pipeline.png)
 
 ## Introduction <a name="introduction"></a>
 The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
