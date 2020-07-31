@@ -37,7 +37,7 @@ The project must consider:
 
 The team decided to choose a current topic that the entire world faces and deals with, including the health sector, the industrial sector, even the agricultural sector or even the academic sector. COVID-19 has shown its presence on anyone's lifes.
 
-Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us wich might lead us to a deeper analysis.
+Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us which might lead us to a deeper analysis.
 
 The main justification of the election of such topic, is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we tought.
 
@@ -49,6 +49,17 @@ The initial idea, therefore, of getting the data from a public repository was de
 
 Nonetheless, our research continued and we found the data source we used for the project taken from [CDMX data](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) which also stores national information, which fulfiled our needs.
 
+From this point, here is what we originaly planed for the pipeline:
+* Data Source
+   * Database taken from [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) due to its completeness and easy access
+* Data acquisition
+   * Bash in Apache Airflow: To schedule and monitor in a workflow the acquisition of the data every 24 hpurs.
+* Data storage
+   * MongoDB Atlas:
+* Data analysis and visualization
+   * Jupyter Notebook: It is an IDE provided by Anaconda which provides powerful and well known options to visualize data such as the Matplotlib library, as well as Numpy, Seaborn, and Pandas to create the DataFrames in the analysis.
+   * Tableau: On the other hand, this softwareis well known for the easy data visualization by simplifying raw data in a very easy to understand format.
+
 Once we accessed to the data, we started with a script in Bash from Linux, to later connect it with Apache Airflow in order to update the information every 24 hours.
 Whit this, though, the more we advanced with the script on Bash, the more difficult was Airflow due to some problems when using the operators needed and the way we should have used the parameters. That is why we decided to keep our csv files obtained directly from the script of Bash, instead pf using the Airflow technology. From here, it is important to mention that the information taken was from July 16 to July 27 of this year, the time we declared on the script to store the data, and with the main purpose of having enough data to use it on the prediction.
 
@@ -59,6 +70,8 @@ However, more difficulties began to be present while getting advances in the pro
 Finally, the data analysis was complemented with Jupyter Notebook due to its practicality and our experience with this tool. Therefore, our pipeline for this project is as shown below:
 
 ![](/covidd/pipeline(2).jpg)
+
+Althought the difficulties and limitations we faced with our original pipeline, it is totally replicable in such way thanks to the advantages they provide. Thus, with a established budget, when working for any organization or company that would need or feel interested on this approach to a solution.
 
 ## Introduction <a name="introduction"></a>
 The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
