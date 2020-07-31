@@ -7,13 +7,14 @@
 
 
 ## Table of contents
-1. [Pipeline](#pipeline)
-2. [Introduction](#introduction)
+1. [Introduction](#introduction)
+2. [Pipeline](#pipeline)
+3. [Problem to work with](#problem)
 3. [Understanding the data](#understanding)
 4. [Exploratory Data Analysis](#eda)
 5. [Conclusion](#conclusion)
 
-## Pipeline <a name="pipeline"></a>
+## Introduction <a name="introduction"></a>
 As a closure for the Big Data Management course, we are to develop a project involving topics that the management of data requires, where we, as a team, could get something valuable.
 
 Thus, for the development of a pipeline, we are to follow some specific requirements:
@@ -35,6 +36,7 @@ The project must consider:
 * **Scalability** justifying the election of the tools and technologies used for the proyect.
 * **Replicability** offering the posibillity to provide the same analysis specifying the own requirements of data.
 
+## Pipeline <a name="pipeline"></a>
 The team decided to choose a current topic that the entire world faces and deals with, including the health sector, the industrial sector, even the agricultural sector or even the academic sector. COVID-19 has shown its presence on anyone's lifes.
 
 Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us which might lead us to a deeper analysis.
@@ -73,7 +75,7 @@ Finally, the data analysis was complemented with Jupyter Notebook due to its pra
 
 Althought the difficulties and limitations we faced with our original pipeline, it is totally replicable in such way thanks to the advantages they provide. Most of the complications where because of money: (MongoDB Atlas on storage, and its conection with Tableu, which also need a subscription (for the project we used the free trial for 15 days). Thus, with a established budget, when working for any organization or company that would need or feel interested on this approach to a solution.
 
-## Introduction <a name="introduction"></a>
+## Problem to work with <a name="problem"></a>
 The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
 has been causing; nonetheless, the impact of COVID-19 varies in function to the geographical position in which it takes place. 
 
