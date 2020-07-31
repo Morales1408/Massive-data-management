@@ -9,7 +9,7 @@
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Pipeline](#pipeline)
-3. [Initial ideas and changes that were made](#initial)
+3. [Initial ideas, limitations the team had and changes that were made](#initial)
 4. [Understanding the data](#understanding)
 5. [Exploratory Data Analysis](#eda)
 6. [Algorithm implemented](#algorithm)
@@ -31,7 +31,7 @@ As a closure for the Big Data Management course, we are to develop a project inv
 ![](/covidd/pipeline(2).jpg)
 
 
-## Initial ideas and changes that were made <a name="initial"></a>
+## Initial ideas, limitations the team had and changes that were made <a name="initial"></a>
 
 The team decided to choose a current topic that the entire world faces and deals with, including the health, industrial sector, agricultural sector, academic, among other sectors. COVID-19 has shown its presence on anyone's life.
 
@@ -43,10 +43,12 @@ The initial idea of getting the data from a public repository was denied by the 
 
 Once we accessed to the data, we started with a script in Bash to later connect it with Apache Airflow to create a DAG in order to automate the update and acquisitions of new data every 24 hours. However, everytime we downloaded the new dataset, we found out that each new csv file contained more than 700,000 "new" observations among positive and negative cases, as well as data from patients who were still waiting for their results on the SARS-CoV-2 test. Later, we found out that we had repeated values. For this reason, we decided to stop dowloading new data, thus, it was decided not to connect our bash script with Apache Airflow.
 
-
 Once we had our data acquisition ready, we needed also to store it for us to use it for its analysis. Therefore, our initial idea was to create and store the database in a cluster from MongoDB, speciffically in MongoDB Atlas,  because this technology fulfills the characteristics of a fast transactions and perform simulteneously in different nodes for the best performance. We had ready the cluster. However, when trying to upload our file, we faced the problem of the limitation of storage on a shared cluster in MongoDB Atlas. Thus, we decided to keep it in the limited space since there was still enough data to be able to work with. And mainly, because we had the original plan of using Tableau for the data visualization part of our project, and MongoDB offers this connection. Nevertheless, more difficulties began to be present while getting advances in the project. Since we wanted to connect MongoDB Atlas to Tableau, the platform required an upgrade in the cluster that would allow us to complete said connection. The cost was of $0.08 per hour of usage. Therefore we look for an alternative and found that Tableau gives the opportunity to be connected with OneDrive, and since we store our files for protection in that platform provided by our University, we decided to work in such way.
 
 Finally, the data analysis and visualization was complemented with Jupyter Notebook due to its practicality and our experience with this tool, but it was also used tableau UI due to it is a tool both easy to learn and to use. Furthermore, tableau offers free access to tableau desktop for a year to students and since it is a tool widely used by companies, we decided to use it.
+
+Although the limitations faced during the realization of the project on what involves the pipeline, the original idea of using MongoDB is totally replicable. With the needed budget the desired task can be gathered successfully. And we sum this apportationfor Tableau tool, since it also requires a subscription for its use. Nonetheless, we managed to work with it thanks to the 15 days free trial, plus, the data visualization part was the last step to do through the project, and we had enough time to explore and use it. However, Tableau offers its services for students as long as email and a validated ID is provided.
+
 
 ## Understanding the data <a name="understanding"></a>
 As we have written before, the analysis was done in the data retrieved from July 16 to July 27 of this year. But, what do we know about them and what can we obtain from it? This is what [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) gave us acces to:
