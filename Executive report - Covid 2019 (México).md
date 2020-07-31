@@ -13,7 +13,7 @@
 4. [Exploratory Data Analysis](#eda)
 5. [Conclusion](#conclusion)
 
-## Pipeline
+## Pipeline <a name="pipeline"></a>
 As a closure for the Big Data Management course, we are to develop a project involving topics that the management of data requires, where we, as a team, could get something valuable.
 
 Thus, for the development of a pipeline, we are to follow some specific requirements:
@@ -50,7 +50,11 @@ The initial idea, therefore, of getting the data from a public repository was de
 Nonetheless, our research continued and we found the data source we used for the project taken from [CDMX data](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) which also stores national information, which fulfiled our needs.
 
 Once we accessed to the data, we started with a script in Bash from Linux, to later connect it with Apache Airflow in order to update the information every 24 hours.
-Whit this, though, the more we advanced with the script on Bash, the more difficult was Airflow due to some problems when using the operators needed and the way we should have used the parameters. That is why we decidesd to keep our csv files obtained directly from the script of Bash.
+Whit this, though, the more we advanced with the script on Bash, the more difficult was Airflow due to some problems when using the operators needed and the way we should have used the parameters. That is why we decided to keep our csv files obtained directly from the script of Bash, instead pf using the Airflow technology. From here, it is important to mention that the information taken was from July 16 to July 27 of this year, the time we declared on the script to store the data, and with the main purpose of having enough data to use it on the prediction.
+
+Now, we had our data acquisition ready, but we needed also to store it for us to use it for its analysis. Therefore, our initial idea was to create and store the database in a cluster from MongoDB, speciffically in MongoDB Atlas, because we needed a communitary service to thet three of us to easily access to the documents. We had ready the cluster. However, when trying to upload our file, we faced the problem of the limitation of storage on a shared cluster in MongoDB Atlas. Thus, we decided to keep it in the limited space, since there was still enough data to be able to work with. And mainly, because we had the original plan of using Tableau for the data visualization part of our project, and MongoDB offers this connection.
+
+However, more difficulties began to be present while getting advances in the project. Since we wanted to switching from MongoDB Atlas to Tableau the platform required an upgrade in the cluster that would allow us to complete said connection. And the cost was of $0.08 per hour of usage. Therefore we look for an alternative
 
 
 
