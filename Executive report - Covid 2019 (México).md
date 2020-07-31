@@ -7,22 +7,22 @@
 
 
 ## Table of contents
-1. [Introduction](#introduction)
-2. [Pipeline](#pipeline)
-3. [Problem to work with](#problem)
-4. [Understanding the data](#understanding)
-5. [Exploratory Data Analysis](#eda)
+1. [Pipeline](#pipeline)
+2. [Introduction](#introduction)
+3. [Understanding the data](#understanding)
+4. [Exploratory Data Analysis](#eda)
+5. [Algorithm implemented](#algorithm implemented)
 6. [Conclusion](#conclusion)
 
-## Introduction <a name="introduction"></a>
+## Pipeline <a name="pipeline"></a>
 As a closure for the Big Data Management course, we are to develop a project involving topics that the management of data requires, where we, as a team, could get something valuable.
 
 Thus, for the development of a pipeline, we are to follow some specific requirements:
-* **Problem:** To choose a current problem on the IT industry, or not related at all.
+* **Problem:** To choose a current problematica on the IT industry, or not related at all.
 * **Solutions:** Those that have been already applied to solve the problem.
 * **Data source:** Either internal and external.
 * **Posible algorithms**
-* **Data cleaning and manipulations:** Icluding...
+* **Data cleaning and manipulations:** Icluiding...
     * Variables
     * Data
     * Algorithm
@@ -38,32 +38,17 @@ The project must consider:
 
 The team decided to choose a current topic that the entire world faces and deals with, including the health sector, the industrial sector, even the agricultural sector or even the academic sector. COVID-19 has shown its presence on anyone's lifes.
 
-Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us which might lead us to a deeper analysis.
+Our approach will be focused on our country: Mexico. With the purpose of finding interesting information for us wich might lead us to a deeper analysis.
 
 The main justification of the election of such topic, is that the data can be found online due to different sectors that provide API's with the registered data related to this pandemia. Or at least that was we tought.
 
 Our proposal is guided by our knowledge and a value added by making a prediction with Machine Learning.
 
-## Pipeline <a name="pipeline"></a>
 The first thing to do was to search for the information needed. Surfing the web, we found many data sources, that collect the most common information: number of cases registered, number of deaths, and country. Even though the plenty of web pages that describe the topic and provide data related, the first thing we struggle with was to found a full database that gives valuable information. Many of them were out-to-date and barely accessible according to our limited resources. The latter was the case of the API of the Mexican Government.
 
 The initial idea, therefore, of getting the data from a public repository was denied by the circumstances.
 
 Nonetheless, our research continued and we found the data source we used for the project taken from [CDMX data](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) which also stores national information, which fulfiled our needs.
-
-From this point, here is what we originaly planed for the pipeline:
-* **Data Source**
-   * Database taken from [Datos Abiertos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) due to its completeness and easy access
-* **Data acquisition**
-   * **Bash in Apache Airflow:**
-   To schedule and monitor in a workflow the acquisition of the data every 24 hours.
-* **Data storage**
-   * **MongoDB Atlas:**
-* **Data analysis and visualization**
-   * **Jupyter Notebook:**
-   It is an IDE provided by Anaconda which provides powerful and well known options to visualize data such as the Matplotlib library, as well as Numpy, Seaborn, and Pandas to create the DataFrames in the analysis.
-   * **Tableau:**
-   On the other hand, this softwareis well known for the easy data visualization by simplifying raw data in a very easy to understand format.
 
 Once we accessed to the data, we started with a script in Bash from Linux, to later connect it with Apache Airflow in order to update the information every 24 hours.
 Whit this, though, the more we advanced with the script on Bash, the more difficult was Airflow due to some problems when using the operators needed and the way we should have used the parameters. That is why we decided to keep our csv files obtained directly from the script of Bash, instead pf using the Airflow technology. From here, it is important to mention that the information taken was from July 16 to July 27 of this year, the time we declared on the script to store the data, and with the main purpose of having enough data to use it on the prediction.
@@ -76,9 +61,7 @@ Finally, the data analysis was complemented with Jupyter Notebook due to its pra
 
 ![](/covidd/pipeline(2).jpg)
 
-Althought the difficulties and limitations we faced with our original pipeline, it is totally replicable in such way thanks to the advantages they provide. Most of the complications where because of money: (MongoDB Atlas on storage, and its conection with Tableau, which also need a subscription (for the project we used the free trial for 15 days). Thus, with a established budget, when working for any organization or company that would need or feel interested on this approach to a solution.
-
-## Problem to work with <a name="problem"></a>
+## Introduction <a name="introduction"></a>
 The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
 has been causing; nonetheless, the impact of COVID-19 varies in function to the geographical position in which it takes place. 
 
@@ -206,6 +189,33 @@ In order to answer the previous question (and once we knew our variable was norm
 ![](/covidd/pete9.png)
 
 Our test yielded (with a p<0.05) that older people are indeed more susceptible to get intubated. This is, age is in fact an important factor to consider for patients.
+
+## Algorithm implemented
+
+Logistic Regression is a supervised learning algorithm used for classification problems. Classification can be defined as the task of predicting a discrete class label. In a classification problem, data is classified into one of two or more classes. A classification problem with two classes is called *binary*. More than two classes is called a *mul-ticlass* classification. Logistic regression it’s a regression method that allows estimating the probability of a categorical variable based on a numerical variable. One of the main applications of logistic regression is that of binary classification, in which observations are classified into one group or another depending on the value of the variable used as a predictor.
+
+In this case, we are seeking to predict if a patient who has COVID-19 and medical conditions such as a diagnosis of EPOC, chronic renal insufficiency, pneumonia, obesity, hypertension, asthma, diabetes, immunosuppression or any other disease; will be intubated or not. In this way, hospitals can prepare themselves to have enough of the equipment necessary for all patients who will need to be intubated.  We are also taking into consideration the age and sex of each patient.
+
+The table below shows the final data frame that will be used.
+
+| Variable name  |   Type  |                                       Description                                       |       Source file       |
+|----------------|:-------:|:---------------------------------------------------------------------------------------:|:-----------------------:|
+|       sex      | boolean | Identifies the sex of the patient. 1: female, 0: men                                    | created                 |
+|    intubado    | boolean | Identifies if the patient required intubation. 1: yes, 0: no                            | created                 |
+|    neumonia    | boolean | Identifies if the patient was diagnosed with pneumonia. 1: yes, 0: no                   | created                 |
+|      edad      | integer | Identifies the patient's age.                                                           | 200722COVID19MEXICO.csv |
+|    embarazo    | boolean | Identifies if the patient is pregnant. 1: yes, 0: no                                    | created                 |
+|    diabetes    | boolean | Identifies if the patient was diagnosed with diabetes. 1: yes, 0: no                    | created                 |
+|      epoc      | boolean | Identifies if the patient has a diagnosis of EPOC. 1: yes, 0: no                        | created                 |
+|      asma      | boolean | Identifies if the patient has a diagnosis of asthma. 1: yes, 0: no                      | created                 |
+|    inmusupr    | boolean | Identifies if the patient has immunosuppression. 1: yes, 0: no                          | created                 |
+|  hipertension  | boolean | Identifies if the patient has a diagnosis of hypertension. 1: yes, 0: no                | created                 |
+|    otras_com   | boolean | Identifies if the patient is diagnosed with other diseases. 1: yes, 0: no               | created                 |
+| cardiovascular | boolean | Identifies if the patient has a diagnosis of cardiovascular disease. 1: yes, 0: no      | created                 |
+|    obesidad    | boolean | Identifies if the patient has been diagnosed with obesity. 1: yes, 0: no                | created                 |
+|  renal_cronica | boolean | Identifies if the patient has been diagnosed with chronic kidney failure. 1: yes, 0: no | created                 |
+|   tabaquismo   | boolean | Identifies if the patient has a smoking habit. 1: yes, 0: no                            | created                 |
+
 
 
 ## Conclusion <a name="conclusion"></a>
