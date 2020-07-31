@@ -58,7 +58,7 @@ However, more difficulties began to be present while getting advances in the pro
 
 Finally, the data analysis was complemented with Jupyter Notebook due to its practicality and our experience with this tool. Therefore, our pipeline for this project is as shown below:
 
-![](/covidd/pipeline.png)
+![](/covidd/pipeline(2).jpg)
 
 ## Introduction <a name="introduction"></a>
 The current situation the world is facing got us by surprise, this can be noticed just by looking at the news and paying attention to the thousands of death this tragic event 
