@@ -13,6 +13,7 @@
 4. [Understanding the data](#understanding)
 5. [Exploratory Data Analysis](#eda)
 6. [Algorithm implemented](#algorithm)
+7. [Prediction](#solving)
 7. [The V's in Big Data applied in the project](#bigdata)
 8. [Conclusion](#conclusion)
 
@@ -169,12 +170,25 @@ In order to answer the previous question (and once we knew our variable was norm
 
 Our test yielded (with a p<0.05) that older people are indeed more susceptible to get intubated. This is, age is in fact an important factor to consider for patients.
 
-## Algorithm implemented <a name="algorithm"></a>
+## Algorithms implemented <a name="algorithm"></a>
 
+### Logistic Regression
 Logistic Regression is a supervised learning algorithm used for classification problems. Classification can be defined as the task of predicting a discrete class label. In a classification problem, data is classified into one of two or more classes. A classification problem with two classes is called *binary*. More than two classes is called a *mul-ticlass* classification. Logistic regression it’s a regression method that allows estimating the probability of a categorical variable based on a numerical variable. One of the main applications of logistic regression is that of binary classification, in which observations are classified into one group or another depending on the value of the variable used as a predictor.
 
 In this case, we are seeking to predict if a patient who has COVID-19 and medical conditions such as a diagnosis of EPOC, chronic renal insufficiency, pneumonia, obesity, hypertension, asthma, diabetes, immunosuppression or any other disease; will be intubated or not. In this way, hospitals can prepare themselves to have enough of the equipment necessary for all patients who will need to be intubated.  We are also taking into consideration the age and sex of each patient.
 
+### Random Forest
+Random forest is a supervised learning algorithm that randomly creates and combines multiple decision trees in a "forest". The goal is not to rely on a single learning model, but rather a collection of decision models to improve accuracy. The main difference between this approach and standard decision tree algorithms is that root nodes have division nodes that are randomly generated and whose prediction is more accurate than an individual tree. Essentially, the random forest allows a large number of classifiers weak or poorly correlated, to form a strong classifier.
+
+### Bagging
+Bagging methods are part of a family of methods called ***ensemble methods***. In machine learning, ensemble methods are those that aim to implement multiple learning algorithms in order to reduce variance and bias or to improve predictions.
+
+There are two large families of set methods although for the moment we will focus on the averaging methods which is the group to which the bagging methods belong. Averaging methods operate by building multiple independent estimators so that their predictions are then averaged. Bagging methods are designed to construct multiple estimator instances in random subsets from the original training set and then aggregate each of the individual predictions to form a final prediction.
+
+
+## Solving the problem <a name="solving"></a>
+
+### Data frame
 The table below shows the final data frame that will be used.
 
 | Variable name  |   Type  |                                       Description                                       |       Source file       |
