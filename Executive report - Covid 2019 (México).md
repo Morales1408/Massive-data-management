@@ -13,7 +13,7 @@
 4. [Understanding the data](#understanding)
 5. [Exploratory Data Analysis](#eda)
 6. [Algorithm implemented](#algorithm)
-7. [Prediction](#solving)
+7. [Solving the problem](#solving)
 7. [The V's in Big Data applied in the project](#bigdata)
 8. [Conclusion](#conclusion)
 
