@@ -13,9 +13,10 @@
 4. [Understanding the data](#understanding)
 5. [Exploratory Data Analysis](#eda)
 6. [Algorithms implemented](#algorithm)
-7. [Solving the problem](#solving)
-8. [The V's in Big Data applied in the project](#bigdata)
-9. [Conclusion](#conclusion)
+7. [Algorithms' results](#results)
+8. [Solving the problem](#solving)
+9. [The V's in Big Data applied in the project](#bigdata)
+10. [Conclusion](#conclusion)
 
 
 
@@ -184,6 +185,8 @@ Random forest is a supervised learning algorithm that randomly creates and combi
 Bagging methods are part of a family of methods called ***ensemble methods***. In machine learning, ensemble methods are those that aim to implement multiple learning algorithms in order to reduce variance and bias or to improve predictions.
 
 There are two large families of set methods although for the moment we will focus on the averaging methods which is the group to which the bagging methods belong. Averaging methods operate by building multiple independent estimators so that their predictions are then averaged. Bagging methods are designed to construct multiple estimator instances in random subsets from the original training set and then aggregate each of the individual predictions to form a final prediction.
+
+## Introduction <a name="result"></a>
 
 
 ## Solving the problem <a name="solving"></a>
