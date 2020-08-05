@@ -186,8 +186,44 @@ Bagging methods are part of a family of methods called ***ensemble methods***. I
 
 There are two large families of set methods although for the moment we will focus on the averaging methods which is the group to which the bagging methods belong. Averaging methods operate by building multiple independent estimators so that their predictions are then averaged. Bagging methods are designed to construct multiple estimator instances in random subsets from the original training set and then aggregate each of the individual predictions to form a final prediction.
 
-## Introduction <a name="result"></a>
+## Algorithms' results <a name="results"></a>
 
+#### Random Forest 
+We applied for this model a hyperparameter tuning process with the following parameters
+|Parameter|Setting|
+|:--------|:------|
+|n estimators|1000|
+|bootstrap|True|
+|maximum features|Automatic|
+|Minimum samples split|8|
+
+After this settings we obtained these resuts as its performance
++ __Accuracy__ = 0.6083899127061105
++ __Precision__ = 0.2076923076923077
++ __Recall__ = 0.5598086124401914
++ __F1 Score__= 0.302977988778593
+
+### Bagging classifier
+We applied for this model a hyperparameter tuning proces with the following parameters 
+|Parameter|Setting|
+|:--------|:------|
+|n estimators|100|
+|Maximum samples|0.5|
+|Warm Start|True|
+
+After this settings we obtained these resuts as its performance 
++ __Accuracy__ = 0.6057225994180407
++ __Precision__ = 0.20738137082601055
++ __Recall__ = 0.5645933014354066
++ __F1 Score__= 0.3033419023136247
+
+### Logistic regression
+After applying this model to our data, we obtained these results as its performance
+
++ __Accuracy__ = 0.5594083414161009
++ __Precision__ = 0.2122823984526112
++ __Recall__ = 0.7001594896331739
++ __F1 Score__= 0.32578849721706865
 
 ## Solving the problem <a name="solving"></a>
 
