@@ -198,15 +198,11 @@ These are the performances of our models
 
 | Model           | Parameters                   |Scores                          |
 |-----------------|------------------------------|--------------------------------|
-| Random Forest   |<ul><li>n estimators : 1000</li><li>bootstrap : True</li><li>Maximum Features: Automatic</li><li>Minimum samples split: 8</li></ul>| |
+| Random Forest   |<ul><li>n estimators : 1000</li><li>bootstrap : True</li><li>Maximum Features: Automatic</li><li>Minimum samples split: 8</li></ul>|<ul><li>Accuracy: 0.6083899127061105</li><li>Precision: 0.2076923076923077</li><li>Recall: 0.5598086124401914</li><li>F1 Score:0.302977988778593</li></ul>  |
+|Baggind Classifier|<ul><li> n estimators: 100</li><li>Maximum Samples: 0.5</li><li>Warm Start</li></ul> |<ul><li>Accuracy: 0.6057225994180407</li><li> Precision: 0.20738137082601055</li><li>Recall: 0.5645933014354066</li><li>F1 Score:0.3033419023136247</li></ul>  |Logistic Regression|Does not apply|
 
 
 
-|-----------------|------------------------------|--------------------------------|
-|Bagging Classifer|  n estimators: 100          |  Accuracy : 0.6057225994180407|
-|                 |  Maximum Samples : 0.5      | Precision : 0.207381370826010|
-|                 |  Warm Start : True          |  Recall : 0.5645933014354066  |
-|                 |                              |  F1 Score : 0.3033419023136247|
 |-----------------|----------------------------|---------------------------------|
 |Logistic Regression|  Does not apply          | Accuracy : 0.5594083414161009|
 |                   |                          | Precision : 0.2122823984526112|
