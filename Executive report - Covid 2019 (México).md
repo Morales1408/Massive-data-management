@@ -12,7 +12,7 @@
 3. [Initial ideas, limitations the team had and changes that were made](#initial)
 4. [Understanding the data](#understanding)
 5. [Exploratory Data Analysis](#eda)
-6. [Algorithm implemented](#algorithm)
+6. [Algorithms implemented](#algorithm)
 7. [Solving the problem](#solving)
 8. [The V's in Big Data applied in the project](#bigdata)
 9. [Conclusion](#conclusion)
