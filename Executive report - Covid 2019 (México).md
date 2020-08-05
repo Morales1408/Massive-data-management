@@ -188,7 +188,7 @@ There are two large families of set methods although for the moment we will focu
 
 ## Algorithms' results <a name="results"></a>
 
-#### Random Forest 
+### Random Forest 
 We applied for this model a hyperparameter tuning process with the following parameters
 |Parameter|Setting|
 |:--------|:------|
