@@ -14,8 +14,8 @@
 5. [Exploratory Data Analysis](#eda)
 6. [Algorithm implemented](#algorithm)
 7. [Solving the problem](#solving)
-7. [The V's in Big Data applied in the project](#bigdata)
-8. [Conclusion](#conclusion)
+8. [The V's in Big Data applied in the project](#bigdata)
+9. [Conclusion](#conclusion)
 
 
 
@@ -209,7 +209,14 @@ The table below shows the final data frame that will be used.
 |  renal_cronica | boolean | Identifies if the patient has been diagnosed with chronic kidney failure. 1: yes, 0: no | created                 |
 |   tabaquismo   | boolean | Identifies if the patient has a smoking habit. 1: yes, 0: no                            | created                 |
 
-## The V's in Big Data applied in the project <a name="bigdata"></a>
+
+### Train and test dataframes
+
+After having created the dataframe intended to use, the next step was splitting the data into train and test. The train and test dataframe with the independent variables receive the following columns: 'sexo', 'edad', 'embarazo', 'diabetes', 'epoc', 'neumonia', 'asma', 'inmusupr', 'hipertension', 'cardiovascular', 'obesidad', 'renal_cronica', 'tabaquismo', 'otra_com'. While the train and test dataframe for the variable to be predicted receive the column 'intubado'. 
+
+
+
+## The V's of Big Data applied in the project <a name="bigdata"></a>
 Indeed, this was an approach of working with Big Data since the registers grown 700,000 records daily more or less. And as we know, the caracteristics of Big Daa lies on the 5 V's that describes the term. Which ones applied for the reported project?
 
 * **Velocity:** Thanks to the use of bash in Linux, we had the opportunity to use real-time data in an agile way by giving an acurate response of the process and analysis of the datataken from [Datos Abiertos de México](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico)
