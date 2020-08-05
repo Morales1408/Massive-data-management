@@ -190,22 +190,37 @@ There are two large families of set methods although for the moment we will focu
 
 These are the performances of our models 
 ||Accuracy|Precision|Recall|F1 Score|
-|:---|:---|:---|:---|:---|
-|Random Forest|0.6083899127061105|0.2076923076923077|0.5598086124401914|0.302977988778593|
+
 |Bagging Classifier|0.6057225994180407|0.20738137082601055|0.5645933014354066|0.3033419023136247|
 |Logistic regression|0.5594083414161009|0.2122823984526112|0.7001594896331739|0.32578849721706865|
 
-It is worth to say we applied a hyperparameter tuning process for both Random Forest and Bagging classifier with the following settings
-##### Random Forest 
-+ n estimators : 1000
-+ bootstrap : True
-+ Maximum features : Automatic
-+ Minimum samples split : 8 
 
-##### Bagging classifier
-+ n estimators : 100
-+ Maximum samples : 0.5
-+ Warm Start : True
+
+| Model           | Parameters                   |Scores                          |
+|-----------------|------------------------------|--------------------------------|
+| Random Forest   |<ul><li>n estimators : 1000</li><li>bootstrap : True</li><li>Maximum Features: Automatic</li><li>Minimum samples split: 8</li></ul>| |
+
+
+
+|-----------------|------------------------------|--------------------------------|
+|Bagging Classifer|  n estimators: 100          |  Accuracy : 0.6057225994180407|
+|                 |  Maximum Samples : 0.5      | Precision : 0.207381370826010|
+|                 |  Warm Start : True          |  Recall : 0.5645933014354066  |
+|                 |                              |  F1 Score : 0.3033419023136247|
+|-----------------|----------------------------|---------------------------------|
+|Logistic Regression|  Does not apply          | Accuracy : 0.5594083414161009|
+|                   |                          | Precision : 0.2122823984526112|
+|                   |                          | Recall : 0.7001594896331739|
+|                   |                          | F1 Score : 0.32578849721706865|
+
+| column 1 | column 2 |
+|------------|----------|
+| value | <ul><li>value 1</li><li>value 2</li></ul> |
+| value | <ul><li>value 1</li><li>value 2</li></ul> |
+
+
+
+
 
 ## Solving the problem <a name="solving"></a>
 
@@ -252,3 +267,5 @@ Unfortunately, there is still a lot to be said about the COVID-19 in Mexico and 
 That is what we tried to do with our project, we found some good insights about the characteristics of our populations such their previous healt condition and their age (which we learned is an important characteristic to consider), but most importantly, we raised some questions that we consider to be worth of a research, such the hospital conditions of the states where the people live longer. 
 
 We hope this project fulfilled its mission and contribuited a little bit to this topic to make it more bearable during this though times.
+
+
