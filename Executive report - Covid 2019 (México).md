@@ -188,42 +188,24 @@ There are two large families of set methods although for the moment we will focu
 
 ## Algorithms' results <a name="results"></a>
 
-### Random Forest 
-We applied for this model a hyperparameter tuning process with the following parameters
-|Parameter|Setting|
-|:--------|:------|
-|n estimators|1000|
-|bootstrap|True|
-|maximum features|Automatic|
-|Minimum samples split|8|
+These are the performances of our models 
+||Accuracy|Precision|Recall|F1 Score|
+|:---|:---|:---|:---|:---|
+|Random Forest|0.6083899127061105|0.2076923076923077|0.5598086124401914|0.302977988778593|
+|Bagging Classifier|0.6057225994180407|0.20738137082601055|0.5645933014354066|0.3033419023136247|
+|Logistic regression|0.5594083414161009|0.2122823984526112|0.7001594896331739|0.32578849721706865|
 
-After this settings we obtained these resuts as its performance
-+ __Accuracy__ = 0.6083899127061105
-+ __Precision__ = 0.2076923076923077
-+ __Recall__ = 0.5598086124401914
-+ __F1 Score__= 0.302977988778593
+It is worth to say we applied a hyperparameter tuning process for both Random Forest and Bagging classifier with the following settings
+##### Random Forest 
++ n estimators : 1000
++ bootstrap : True
++ Maximum features : Automatic
++ Minimum samples split : 8 
 
-### Bagging classifier
-We applied for this model a hyperparameter tuning proces with the following parameters 
-|Parameter|Setting|
-|:--------|:------|
-|n estimators|100|
-|Maximum samples|0.5|
-|Warm Start|True|
-
-After this settings we obtained these resuts as its performance 
-+ __Accuracy__ = 0.6057225994180407
-+ __Precision__ = 0.20738137082601055
-+ __Recall__ = 0.5645933014354066
-+ __F1 Score__= 0.3033419023136247
-
-### Logistic regression
-After applying this model to our data, we obtained these results as its performance
-
-+ __Accuracy__ = 0.5594083414161009
-+ __Precision__ = 0.2122823984526112
-+ __Recall__ = 0.7001594896331739
-+ __F1 Score__= 0.32578849721706865
+##### Bagging classifier
++ n estimators : 100
++ Maximum samples : 0.5
++ Warm Start : True
 
 ## Solving the problem <a name="solving"></a>
 
