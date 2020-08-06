@@ -13,10 +13,9 @@
 4. [Understanding the data](#understanding)
 5. [Exploratory Data Analysis](#eda)
 6. [Algorithms implemented](#algorithm)
-7. [Algorithms' results](#results)
-8. [Solving the problem](#solving)
-9. [The V's in Big Data applied in the project](#bigdata)
-10. [Conclusion](#conclusion)
+7. [Solving the problem](#solving)
+8. [The V's in Big Data applied in the project](#bigdata)
+9. [Conclusion](#conclusion)
 
 
 
@@ -215,7 +214,7 @@ The table below shows the final data frame that will be used.
 
 After having created the dataframe intended to use, the next step was splitting the data into train and test. The train and test dataframe with the independent variables receive the following columns: 'sexo', 'edad', 'embarazo', 'diabetes', 'epoc', 'neumonia', 'asma', 'inmusupr', 'hipertension', 'cardiovascular', 'obesidad', 'renal_cronica', 'tabaquismo', 'otra_com'. While the train and test dataframe for the variable to be predicted receive the column 'intubado'. 
 
-### Algorithms' results <a name="results"></a>
+### Algorithms' results
 
 These are the performances of our models 
 
